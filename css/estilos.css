@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+    outline: none;
+    font-size: 1vw;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.corrusel{
+    margin: 1% 0;
+}
+
+.corrusel img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+}
+
+.informacion{
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5% 0;
+}
+
+    .informacion article{
+        width: 33%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .informacion div{
+        margin: 0 auto;
+        height:60%;
+        width: 90%;
+        padding: 30px;
+        background-color: #2a97ad;
+        box-sizing: border-box;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+    }
+
+    .informacion img{
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    .informacion p{
+        margin: auto;
+        padding: 10px;
+        color: white;
+        text-align: left;
+    }
+
+    h4{
+        text-align: center;
+        color: white;
+        padding: 10px;
+        background-color: #1c6674;
+    }
+
+aside{
+    width: 80%;
+    padding: 10px;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+    aside article{
+        width:30%;
+        padding: 10px;
+        background-color: #2a97ad;
+        box-sizing: border-box;
+        align-items: center;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+        }
+
+    aside article ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    } 
+
+    aside article ul li{
+        width: 100%;
+        text-align: center;
+        }
+
+    aside article img{
+        margin: 0 auto;
+        width: 90%;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+    }
+
+    aside article h5{
+        text-align: center;
+        color: white;
+        padding: 30px;
+        background-color: #1c6674;
+    }
+
+    aside article ul li h6{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 10px;
+        font-size: 100%;
+        color: white;
+        font-weight: lighter;
+        text-align: center;
+        border-bottom: 2px solid white;
+    }  
+

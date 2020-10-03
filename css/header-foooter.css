@@ -1,0 +1,137 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+    outline: none;
+    font-size: 1vw;
+}
+
+.menu{
+    height: 30%;
+    width: 100%;
+    background-color: #1c6674;
+}
+
+    .menu ul{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .menu li{
+        list-style:none;
+        width: 20%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .menu a{
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        color: white;
+        padding: 50px;
+        text-align: center;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .menu a:hover{
+        color: #1c6674;
+        background-color: white;
+    }
+
+    .menu form{
+        text-align: right;
+    }
+
+    h1{
+        font-weight: bolder;
+        box-sizing: border-box;
+    }
+
+.logo{
+    background-image: url(../img/logo_unlam.png);
+    background-position-x: 8%;
+    background-position-y: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+.menu .logo:hover{
+    color: white;
+    background-color: transparent;
+}
+
+footer{
+    padding: 10px;
+    background-color: #1c6674;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+    footer h6{
+        text-align: center;
+        border-bottom: 2px solid white;
+        border-bottom-style: double;
+        color: white;
+        margin-bottom: 2%;
+    }
+
+    footer article{
+        width: 33%;
+    }
+
+    footer ul{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .columna1 ul{
+            align-items: flex-start;
+        }
+
+        .columna1 ul li{
+            padding: 5px;
+        }
+
+        .columna2 ul li{
+            width: 50%;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .columna2 a{
+            width: 33%;
+            color: white;
+            box-sizing: border-box;
+        }
+
+        .columna2 a:hover{
+            border-bottom-style: solid;
+        }
+
+        .columna3 div{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .columna3 i{
+            font-size: 25px;
+            margin: 10px;
+            align-content: center;
+            color: white;
+        }
