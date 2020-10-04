@@ -3,9 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header-foooter.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <title>Contactenos</title>
 </head>
 <body>
+   <header>
+        <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html" class="logo">
+                            <h1>Clinica UNLaM</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
+                    </li>
+                    <li>
+                        <a href="mapa.html">Centros de Salud cercanos</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Información de Contacto</a>
+                    </li>
+                    <li>
+                        <form action="#" method="post">
+                            <datalist id="informacion">
+                                <option value="enfermedad1">
+                                <option value="enfermedad2">
+                                <option value="emfermedad3">
+                            </datalist>
+                            <input type="text" name="postal" list="informacion">
+                            <input type="button" value="Buscar">
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section class="contenedor">
+          
+            <article class="columna-izq">
+              <div>
+               <h2>Contactanos</h2>
+                <p>Direccion: Florencio Varela 1903 (B1754JEC) San Justo, Buenos Aires, Argentina</p>
+                <p>Tel: 12345678912</p>
+                <p>Mail: Unlam@Unlam.com.ar</p>
+                <p>https://www.unlam.edu.ar/</p>
+               </div> 
+                <img src="img/mapa-ubicacion.png" alt="mapa con ubicacion"> 
+                
+                
+            </article>
+            
+            <article class="columna-der">
+                <form action="#" method="post">
+                <label for="nombre">Nombre: </label>
+                <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre" autofocus required>
+                
+                <label for="apellido">Apellido: </label>
+                <input id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido"  autofocus>
+                
+                <label for="email">Mail: </label>
+                <input id="email" type="email" name="email" placeholder="Ingrese su mail" autofocus>
+                <label for="telefono">Telefono: </label>
+                <input id="telefono" type="tel" pattern="[0-9]{8,}" name="mail" placeholder="Ingrese su telefono" autofocus>
+                <label for="consulta">Consulta: </label>
+                <textarea name="consulta" id="consulta" cols="30" rows="10" autofocus></textarea>
+                <input type="submit" value="Enviar">
+                </form>
+            </article>
+            
+        </section>
+        
+        
+        
+    </main>
+    <footer >
+
+        <article class="columna1">
+            <h6>Datos del grupo</h6>
+            <ul>
+                <li>
+                    <p>Gaston Nahuel Haczek - 41882840</p>
+                </li>
+                <li>
+                    <p>Ruiz Diaz Juan - 31774500</p>
+                </li>
+                <li>
+                    <p>Uriel Iván Schiavone - 41757710</p>
+                </li>
+            </ul>
+        </article>
+
+        <article class ="columna2">
+            <h6>Menu inferior</h6>
+            <ul>
+                <li>
+                    <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
+                </li>
+                <li>
+                    <a href="mapa.html">Hospitales</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </article>
+
+        <article class="columna3"><h6>Redes Sociales</h6>
+
+                <div>
+                    <a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                </div>
+                
+        </article>
+
+    </footer>
     
 </body>
 </html>
