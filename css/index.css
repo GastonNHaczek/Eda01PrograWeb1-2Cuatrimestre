@@ -58,13 +58,16 @@
 
 .informacion2{
     margin: 5% auto;
-    width: 100%;
+    width: 90%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 } 
 
     .informacion2 article{
         display: flex;
+        flex-direction: column;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
     }
 
     .informacion2 article ul{
@@ -79,14 +82,39 @@
         text-align: center;
     }
 
+    .informacion2 .titulo-columna{
+        padding: 5%;
+        background-color: #1c6674;
+        border-right: 2px solid white;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+
+    }
+
     .informacion2 article img{
         width: 80%;
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+        border-radius: 5%;
+    }
+
+    .informacion2 h6{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 10px;
+        font-size: 100%;
+        color: white;
+        font-weight: lighter;
+        text-align: center;
+        border-bottom: 2px solid white;
+    }
+
+    .informacion2 h5{
+        color: white;
     }
 
     aside{
-        width: 30%;
+        width: 45%;
+        margin-left: 5%;
         border-left: 2px solid white;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
     }
 
         aside div{
@@ -113,7 +141,7 @@
         aside div img{
             margin: 0 auto;
             width: 90%;
-            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+            border-radius: 5%;
         }
 
         aside div h5{
@@ -131,5 +159,24 @@
             font-weight: lighter;
             text-align: center;
             border-bottom: 2px solid white;
-        }  
+        }
+        
+.arriba{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #2a97ad;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-image: url(../img/arriba.png);
+    background-size: cover;
+    z-index: 1000;
+    border: 2px solid #1c6674;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+}
+.arriba:hover{
+    opacity: 0.8; 
+}
 
