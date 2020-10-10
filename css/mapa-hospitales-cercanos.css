@@ -36,7 +36,7 @@ aside{
 }
 
 aside div{
-    width:100%;
+   
     padding: 10px;
     background-color: #2a97ad;
     box-sizing: border-box;
@@ -50,21 +50,6 @@ aside div{
     z-index: 2;
             
     }
-.llama-149{
-    
-    
-    background-color: #2a97ad;
-    
-    
-    width: 70%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
-       
-    position: relative;
-    bottom:0px;
-    right:0px;
- 
-    
-}
 
         aside div ul{
             display: flex;
