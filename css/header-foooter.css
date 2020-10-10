@@ -9,12 +9,21 @@
     outline: none;
     font-size: 1vw;
     font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
+=======
+}
+
+body{
+    height: 100%;
+    width: 100%;
+>>>>>>> index-solo
 }
 
 .menu{
     height: 30%;
     width: 100%;
     background-color: #1c6674;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.44);
 }
 
     .menu ul{
@@ -73,6 +82,8 @@
 }
 
 footer{
+    position: relative;
+    bottom: 0;
     padding: 10px;
     background-color: #1c6674;
     display: flex;
@@ -136,3 +147,12 @@ footer{
             align-content: center;
             color: white;
         }
+
+.lupa{
+    width: 10%;
+    background-color: transparent;
+    background-image: url(../img/lupa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+}
