@@ -84,7 +84,7 @@
 }
 
     .llama-al-148 article{
-        width: 80%;
+        width: 100%;
         margin: auto;
         display: flex;
         justify-content: space-between;
@@ -93,7 +93,7 @@
     }
 
     .llama-al-148 div{
-        margin: 0px 5% ;
+        margin: auto;
     }
 
         .llama-al-148 p{
