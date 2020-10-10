@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/ed0b8e39e2.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listado de enfermedades</title>
-    <script src="https://kit.fontawesome.com/ed0b8e39e2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/listado-enfermedades.css">
-
-   
-
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/header-foooter.css">
-
+    
 </head>
 <body>
 
-    <header>
+    <header id="inicio">
         <nav class="menu">
                 <ul>
                     <li>
@@ -34,12 +32,14 @@
                     <li>
                         <form action="#" method="post">
                             <datalist id="informacion">
-                                <option value="enfermedad1">
-                                <option value="enfermedad2">
-                                <option value="emfermedad3">
+                                <option value="COVID-19">
+                                <option value="Fiebre hemorrágica por el virus del Ébola"></option>
+                                <option value="Influenza">
+                                <option value="Sarampión"></option>
+                                <option value="Varicela y herpes zóster (culebrilla)"></option>
                             </datalist>
                             <input type="text" name="postal" list="informacion">
-                            <input type="button" value="Buscar">
+                            <input type="submit" value="." class="lupa">
                         </form>
                     </li>
                 </ul>
@@ -47,6 +47,20 @@
     </header>
 
     <main>
+      <div class="buscar">
+        <h2>ENFERMEDADES</h2>
+        <form action="#" method="post">
+            <datalist id="informacion">
+                <option value="COVID-19">
+                <option value="Fiebre hemorrágica por el virus del Ébola"></option>
+                <option value="Influenza">
+                <option value="Sarampión"></option>
+                <option value="Varicela y herpes zóster (culebrilla)"></option>
+            </datalist>
+            <input type="text" name="postal" list="informacion">
+            <input type="submit" value="." class="lupa">
+        </form>
+      </div>
     
         <section class="contenedor">
 
@@ -54,9 +68,9 @@
 
                  <img class="imagen-enfermedad" src="img/resfrio.jpg" alt="resfrio-comun">
                   <div class="descripcion-enfermedad">
-                  <h2>Resfriado común</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, harum.</p>
-                  <a href="#" class="boton">Leer mas </a>
+                  <h3>COVID-19</h3>
+                  <p>Qué es el Coronavirus, cómo se contagia. Enterate toda la información sobre el COVID-19. Conocé más sobre las recomendaciones y las medidas de prevención para combatir al virus. Disposiciones Comunes. Síntomas. Cuidados Principales.</p>
+                  <a href="detalle-de-enfermedad.html" class="boton">Leer mas </a>
                   </div>
 
               </article> 
@@ -65,9 +79,9 @@
 
                   <img class="imagen-enfermedad" src="img/ebola.jpg" alt="ebola">
                   <div class="descripcion-enfermedad">
-                  <h2>Fiebre hemorrágica por el virus del Ébola</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, harum.</p>
-                  <a href="#" class="boton">Leer mas </a>
+                  <h3>Fiebre hemorrágica por el virus del Ébola</h3>
+                  <p>Información sobre la FIEBRE HEMORRÁGICA POR VIRUS DEL ÉBOLA. ¿Qué es la fiebre hemorrágica Ébola? Es una enfermedad conocida desde el año ...</p>
+                  <a href="detalle-de-enfermedad.html" class="boton">Leer mas </a>
                   </div>
 
               </article>  
@@ -76,9 +90,9 @@
 
                  <img class="imagen-enfermedad" src="img/influenza.png" alt="influenza">
                   <div class="descripcion-enfermedad">
-                  <h2>Influenza.</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, harum.</p>
-                  <a href="#" class="boton">Leer mas</a>
+                  <h3>Influenza.</h3>
+                  <p>A la gripe la causa el virus "influenza". Se contagia cuando la gente expulsa gotitas infectadas por el virus al toser o al estornudar, y otras personas las inspiran.</p>
+                  <a href="detalle-de-enfermedad.html" class="boton">Leer mas </a>
                   </div>
 
               </article>
@@ -87,9 +101,9 @@
             
                   <img class="imagen-enfermedad" src="img/sarampion.jpeg" alt="sarampion">
                   <div class="descripcion-enfermedad">
-                  <h2>Sarampión.</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, harum.</p>
-                  <a href="#" class="boton">Leer mas </a>
+                  <h3>Sarampión.</h3>
+                  <p>El sarampión es una infección infantil causada por un virus. En una época fue bastante frecuente pero en la actualidad se puede prevenir ...</p>
+                  <a href="detalle-de-enfermedad.html" class="boton">Leer mas </a>
                   </div>
 
               </article>  
@@ -97,9 +111,9 @@
 
                   <img class="imagen-enfermedad" src="img/varicela.jpg" alt="varicela-herpes">
                   <div class="descripcion-enfermedad">
-                  <h2>Varicela y herpes zóster (culebrilla)</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, harum.</p>
-                  <a href="#" class="boton">Leer mas</a>
+                  <h3>Varicela y herpes zóster (culebrilla)</h3>
+                  <p>Ese es el mismo virus que ocasiona la varicela. Primer plano de lesión por herpes zoster (culebrilla). Causas ...</p>
+                  <a href="detalle-de-enfermedad.html" class="boton">Leer mas </a>
                   </div>
 
               </article> 

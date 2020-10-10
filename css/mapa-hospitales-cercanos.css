@@ -7,9 +7,7 @@
 }
 main{
     text-align: center;
-    
     margin: 15px 0px;
-    
 }
 h2{
     color:white;
@@ -19,36 +17,21 @@ h2{
   
     
 }
-section img{
-    
-    width: 60%;
-    border-radius: 40px;
-    margin: 50px;
-   
-}
 main article{
     background-color: #1c6674;
 }
 aside{
+    width: 15%;
     display: flex;
-    
-   
 }
 
 aside div{
-   
     padding: 10px;
     background-color: #2a97ad;
     box-sizing: border-box;
     align-items: center;
     width: 15%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
-       
-    position: relative;
-    top:-450px;
-    left:0px;
-    z-index: 2;
-            
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44); 
     }
 
         aside div ul{
@@ -92,3 +75,16 @@ aside div{
     box-shadow: 0px 0px 34px 8px rgba(0,0,0,0.15);
     
 }
+
+main div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
