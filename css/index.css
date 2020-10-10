@@ -1,6 +1,7 @@
 
 .corrusel{
     margin: 1% 0;
+    height: 20%;
 }
 
 .corrusel img{
@@ -54,112 +55,6 @@
         padding: 10px;
         background-color: #1c6674;
     }
-
-
-.informacion2{
-    margin: 5% auto;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} 
-
-    .informacion2 article{
-        display: flex;
-        flex-direction: column;
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
-    }
-
-    .informacion2 article ul{
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        background-color: #2a97ad;
-    }
-
-    .informacion2 article ul li{
-        width: 25%;
-        text-align: center;
-    }
-
-    .informacion2 .titulo-columna{
-        padding: 5%;
-        background-color: #1c6674;
-        border-right: 2px solid white;
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
-
-    }
-
-    .informacion2 article img{
-        width: 80%;
-        border-radius: 5%;
-    }
-
-    .informacion2 h6{
-        margin-top: 5%;
-        margin-bottom: 5%;
-        padding: 10px;
-        font-size: 100%;
-        color: white;
-        font-weight: lighter;
-        text-align: center;
-        border-bottom: 2px solid white;
-    }
-
-    .informacion2 h5{
-        color: white;
-    }
-
-    aside{
-        width: 45%;
-        margin-left: 5%;
-        border-left: 2px solid white;
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
-    }
-
-        aside div{
-            width:100%;
-            padding: 10px;
-            background-color: #2a97ad;
-            box-sizing: border-box;
-            align-items: center;
-        }
-
-        aside div ul{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-        } 
-
-        aside div ul li{
-            width: 100%;
-            text-align: center;
-            }
-
-        aside div img{
-            margin: 0 auto;
-            width: 90%;
-            border-radius: 5%;
-        }
-
-        aside div h5{
-            color: white;
-            background-color: #1c6674;
-            padding: 50px;
-        }
-
-        aside div ul li h6{
-            margin-top: 5%;
-            margin-bottom: 5%;
-            padding: 10px;
-            font-size: 100%;
-            color: white;
-            font-weight: lighter;
-            text-align: center;
-            border-bottom: 2px solid white;
-        }
         
 .arriba{
     display: block;
@@ -179,4 +74,45 @@
 .arriba:hover{
     opacity: 0.8; 
 }
+
+.llama-al-148{
+    height: auto;
+    width: 100%;
+    background-color: #2a97ad;
+    padding: 50px;
+    margin-bottom: 5%;
+}
+
+    .llama-al-148 article{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+    }
+
+    .llama-al-148 div{
+        margin: 0px 5% ;
+    }
+
+        .llama-al-148 p{
+            font-size: 30px;
+        }
+
+        .llama-al-148 .llama{
+            font-size: 100px;
+        }
+
+        .numero{
+            display: flex;
+        }
+
+        .fas{
+            font-size: 200px;
+        }
+
+        .numero p strong{
+            font-size: 200px;
+        }
 

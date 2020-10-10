@@ -8,10 +8,10 @@
 	border: none;
     outline: none;
     font-size: 1vw;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
     height: 100%;
     width: 100%;
 }
