@@ -5,9 +5,15 @@
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
 main{
     text-align: center;
     margin: 15px 0px;
+<<<<<<< HEAD
+=======
+  
+    
+>>>>>>> hospitalesCercanos
 }
 h2{
     color:white;
@@ -17,21 +23,66 @@ h2{
   
     
 }
+<<<<<<< HEAD
+=======
+main div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+section iframe{
+    
+    width: 100%;
+    border-radius: 40px;   
+}
+div section,aside{
+    width: calc(50% - 2em);
+    margin: 3%;
+     
+}
+
+
+
+
+
+>>>>>>> hospitalesCercanos
 main article{
     background-color: #1c6674;
 }
+
 aside{
     width: 15%;
     display: flex;
+<<<<<<< HEAD
+=======
+    width: 20%;
+      
+>>>>>>> hospitalesCercanos
 }
-
 aside div{
+<<<<<<< HEAD
+=======
+    width: 100%;
+   
+   
+>>>>>>> hospitalesCercanos
     padding: 10px;
     background-color: #2a97ad;
-    box-sizing: border-box;
+    
     align-items: center;
+<<<<<<< HEAD
     width: 15%;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44); 
+=======
+    
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44); 
+    
+    
+            
+>>>>>>> hospitalesCercanos
     }
 
         aside div ul{
@@ -48,15 +99,16 @@ aside div{
             }
 
         aside div img{
-            margin: 0 auto;
+          
             width: 90%;
             border-radius: 5%;
         }
 
         aside div h5{
             color: white;
+            text-align: center;
             background-color: #1c6674;
-            padding: 50px;
+            padding: 40px;
         }
 
         aside div ul li h6{
