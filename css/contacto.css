@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+/*revisado*/
 main{
     font-family: 'Roboto', sans-serif; 
     background-color: #fff;
     margin: 75px 0px;
 }
 .contenedor {
-    display: flex;
-    
+    display: flex;  
     flex-direction: row;
-    justify-content: space-around;
-    
-    
-    
-   
+    justify-content: space-around;  
 }
 h2{
     font-size: 30px;

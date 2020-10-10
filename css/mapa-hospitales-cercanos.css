@@ -5,10 +5,12 @@
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
 main{
     text-align: center;
     
     margin: 15px 0px;
+  
     
 }
 h2{
@@ -19,35 +21,50 @@ h2{
   
     
 }
-section img{
+main div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
     
-    width: 60%;
-    border-radius: 40px;
-    margin: 50px;
-   
+    
 }
+section iframe{
+    
+    width: 100%;
+    border-radius: 40px;   
+}
+div section,aside{
+    width: calc(50% - 2em);
+    margin: 3%;
+     
+}
+
+
+
+
+
 main article{
     background-color: #1c6674;
 }
+
 aside{
     display: flex;
-    
-   
+    width: 20%;
+      
 }
-
 aside div{
+    width: 100%;
+   
    
     padding: 10px;
     background-color: #2a97ad;
-    box-sizing: border-box;
+    
     align-items: center;
-    width: 15%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
-       
-    position: relative;
-    top:-450px;
-    left:0px;
-    z-index: 2;
+    
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44); 
+    
+    
             
     }
 
@@ -65,15 +82,16 @@ aside div{
             }
 
         aside div img{
-            margin: 0 auto;
+          
             width: 90%;
             border-radius: 5%;
         }
 
         aside div h5{
             color: white;
+            text-align: center;
             background-color: #1c6674;
-            padding: 50px;
+            padding: 40px;
         }
 
         aside div ul li h6{
