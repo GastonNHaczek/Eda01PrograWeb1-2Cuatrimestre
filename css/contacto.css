@@ -6,15 +6,9 @@ main{
     margin: 75px 0px;
 }
 .contenedor {
-<<<<<<< HEAD
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-=======
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-around;  
->>>>>>> hospitalesCercanos
 }
 h2{
     font-size: 30px;
