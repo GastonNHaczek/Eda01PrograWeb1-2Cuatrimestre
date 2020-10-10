@@ -9,11 +9,6 @@
 main{
     text-align: center;
     margin: 15px 0px;
-<<<<<<< HEAD
-=======
-  
-    
->>>>>>> hospitalesCercanos
 }
 h2{
     color:white;
@@ -23,8 +18,6 @@ h2{
   
     
 }
-<<<<<<< HEAD
-=======
 main div{
     display: flex;
     flex-direction: row-reverse;
@@ -44,45 +37,20 @@ div section,aside{
      
 }
 
-
-
-
-
->>>>>>> hospitalesCercanos
 main article{
     background-color: #1c6674;
 }
 
 aside{
-    width: 15%;
     display: flex;
-<<<<<<< HEAD
-=======
-    width: 20%;
-      
->>>>>>> hospitalesCercanos
+    width: 15%;
 }
 aside div{
-<<<<<<< HEAD
-=======
     width: 100%;
-   
-   
->>>>>>> hospitalesCercanos
     padding: 10px;
     background-color: #2a97ad;
-    
     align-items: center;
-<<<<<<< HEAD
-    width: 15%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44); 
-=======
-    
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44); 
-    
-    
-            
->>>>>>> hospitalesCercanos
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);         
     }
 
         aside div ul{
@@ -121,22 +89,14 @@ aside div{
             text-align: center;
             border-bottom: 2px solid white;
         }
-.sombras{
-    -webkit-box-shadow: 0px 0px 34px 8px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 0px 34px 8px rgba(0,0,0,0.15);
-    box-shadow: 0px 0px 34px 8px rgba(0,0,0,0.15);
-    
-}
 
-main div{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    width: 100%;
-}
-
-iframe{
-    width: 100%;
-    height: 100%;
+.direccion{
+    background-color: #2a97ad;
+    display: block;
+    border-radius: 20px;
+    margin: 1% 0;
+    color: white;
+    padding: 3%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44); 
 }
 
