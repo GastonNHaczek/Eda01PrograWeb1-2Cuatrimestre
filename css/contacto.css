@@ -23,10 +23,7 @@ h2{
 .contenedor p{
     position: relative;
     top: 10px;
-    left: 20px;
-    color: white;
-    
- 
+    left: 20px;¿
 }
 .columna-izq  div {
     padding: 20px;
@@ -40,14 +37,13 @@ h2{
 .columna-izq {
     
     width: 40%;
-    
-    
-    
+    color:white;   
     
 }
-article img{
+article iframe{
     position: relative;
     top: 55px;
+    height: 55%;
     width: 100%;
     -webkit-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.66);
     -moz-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.66);
@@ -63,6 +59,7 @@ article img{
     box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.66);
     border-radius: 25px;
 }
+
 .columna-der input, textarea,label{
     color: white;
     display:block;

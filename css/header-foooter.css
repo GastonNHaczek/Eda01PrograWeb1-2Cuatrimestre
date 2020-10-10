@@ -9,14 +9,11 @@
     outline: none;
     font-size: 1vw;
     font-family: 'Roboto', sans-serif;
-<<<<<<< HEAD
-=======
 }
 
 body{
     height: 100%;
     width: 100%;
->>>>>>> index-solo
 }
 
 .menu{
@@ -139,9 +136,11 @@ footer{
             display: flex;
             justify-content: center;
             margin: auto;
+            
         }
 
         .columna3 i{
+            color:white;
             font-size: 25px;
             margin: 10px;
             align-content: center;

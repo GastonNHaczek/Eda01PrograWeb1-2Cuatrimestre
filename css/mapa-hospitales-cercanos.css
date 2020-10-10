@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    text-align: center;
+    
+    margin: 15px 0px;
+    
+}
+h2{
+    color:white;
+    background-color: #1c6674;
+    font-size:25px;
+    padding: 20px;
+  
+    
+}
+section img{
+    
+    width: 60%;
+    border-radius: 40px;
+    margin: 50px;
+   
+}
+main article{
+    background-color: #1c6674;
+}
+aside{
+    display: flex;
+    
+   
+}
+
+aside div{
+   
+    padding: 10px;
+    background-color: #2a97ad;
+    box-sizing: border-box;
+    align-items: center;
+    width: 15%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+       
+    position: relative;
+    top:-450px;
+    left:0px;
+    z-index: 2;
+            
+    }
+
+        aside div ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        } 
+
+        aside div ul li{
+            width: 100%;
+            text-align: center;
+            }
+
+        aside div img{
+            margin: 0 auto;
+            width: 90%;
+            border-radius: 5%;
+        }
+
+        aside div h5{
+            color: white;
+            background-color: #1c6674;
+            padding: 50px;
+        }
+
+        aside div ul li h6{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            padding: 10px;
+            font-size: 100%;
+            color: white;
+            font-weight: lighter;
+            text-align: center;
+            border-bottom: 2px solid white;
+        }
+.sombras{
+    -webkit-box-shadow: 0px 0px 34px 8px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 34px 8px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 34px 8px rgba(0,0,0,0.15);
+    
+}
